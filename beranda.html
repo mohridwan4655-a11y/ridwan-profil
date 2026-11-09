@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIODATA DIRI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+<body>
+    <header class="header">
+        <div class="navigasi" style="display: flex; gap: 20PX; ">
+            <a href="#header" style="text-decoration: none">Beranda</a>
+            <a href="kontak.html" style="text-decoration: none">Kontak</a>
+            <a href="tentangnsya.html" style="text-decoration: none">tentang saya</a>
+        </div>
+        <h1 align="center" class="biodata">Biodata Diri</h1>
+        <h1 align="center" class="nama">Moh Ridwan</h1>
+    </header>
+    <main>
+        <hr width="600px">
+        <div class="table-container">
+            <table class="custom-table">
+                <tr>
+                    <td>Nama</td>
+                    <td>: Moh Ridwan</td>
+                <tr>
+                    <td>Nim</td>
+                    <td>: 240302005</td>
+                </tr>
+                <tr>
+                    <td>temapat tanggal lahir</td>
+                    <td>: Morowali-05-oktober-2005</td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>: Laki-Laki</td>
+                </tr>
+                <tr>
+                    <td>jurusan</td>
+                    <td>: Teknik informatika</td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>: main game</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer style="background-color: aqua; position: relative; top: 16PX;">
+        <DIv style="display: flex; justify-content: space-between; align-items: center;gap: 20PX; text-align: center;">
+            <a href="#header" style="text-decoration: none">Beranda</a>
+            <a href="tentangnsya.html" style="text-decoration: none">Kontak</a>
+            <a href="about.html" style="text-decoration: none">Tentang Saya</a>
+        </DIv>
+    </footer>
+
+</body>
+<style>
+    body {
+        background-color: rgb(26, 26, 26);
+    }
+
+    .header {
+        color: rgb(0, 255, 153);
+        padding-bottom: 10px;
+    }
+
+    .header h1 {
+        padding-bottom: 0px;
+        font-family: "Spicy Rice", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .biodata {
+        margin-top: 20px;
+    }
+
+    .navigasi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigasi p {
+        display: flex;
+        margin: 20px 50px 0px 50px;
+    }
+
+    /* Card Box Cyan (Sesuai gambar Anda) */
+    .table-container {
+        background-color: rgb(0, 255, 153);
+        /* Warna cyan sesuai gambar */
+        padding: 30px;
+        border-radius: 15px;
+        margin: 20px auto;
+        max-width: 800px;
+
+        /* UTAMA: Membuat tabel di dalamnya berada tepat di tengah */
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Pengaturan struktur tabel */
+    .custom-table {
+        width: 90%;
+        /* Mengatur lebar tabel di dalam box cyan */
+        max-width: 600px;
+        border-collapse: collapse;
+        /* Menghilangkan double border */
+        font-family: sans-serif;
+    }
+
+    /* Membuat garis pembatas horizontal di setiap baris */
+    .custom-table tr {
+        border-bottom: 1px solid rgba(32, 32, 32, 0.15);
+        /* Garis tipis transparan agar menyatu dengan warna cyan */
+    }
+
+    /* Menghilangkan garis pembatas pada baris terakhir agar lebih rapi */
+    .custom-table tr:last-child {
+        border-bottom: none;
+    }
+
+    /* Mengatur jarak text di dalam sel agar tidak menempel ke garis */
+    .custom-table td {
+        padding: 14px 10px;
+        vertical-align: middle;
+        font-size: 1.05rem;
+        color: #222222;
+    }
+
+    /* Lebar kolom label kiri tetap sejajar */
+    .custom-table td.label {
+        width: 40%;
+        font-weight: bold;
+    }
+
+    /* Lebar kolom titik dua */
+    .custom-table td.colon {
+        width: 5%;
+        text-align: center;
+    }
+
+    /* Kolom isi data kanan */
+    .custom-table td.value {
+        width: 55%;
+    }
+</style>
+
+</html>
